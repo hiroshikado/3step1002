@@ -9,15 +9,17 @@ if (! isset ( $_POST ["maker"] )) {
 	$pMaker = $_POST ["maker"];
 
 	// データベースへ接続
-	$dsn = "mysql:dbname=stationery;host=localhost;port=3306;charset=utf8";
+	$dsn = "mysql:dbname=stationery;host=localhost;port=8889;charset=utf8";
 	$user = "root";
 	$password = "";
 
 	// ここに追加
+	$dbInfo = new PDO ( $dsn, $user, $password );
 
 	// SQL（検索）の実行
 	if ($pMaker == "すべて") {
 		// ここに追加
+		$sql = "SELECT * FROM pencils";
 	} else {
 		$sql = "SELECT * FROM pencils WHERE maker='" . $pMaker . "'";
 	}
@@ -45,7 +47,7 @@ if (! isset ( $_POST ["maker"] )) {
 <head>
 	<meta charset="UTF-8">
 	<title>テーブルからデータを検索して表示しよう</title>
-	<link rel="stylesheet" type="text/css" href="/php/css/skyblue.css">
+	<link rel="stylesheet" type="text/css" href="/css/skyblue.css">
 </head>
 <body>
 <?php

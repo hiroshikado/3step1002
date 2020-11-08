@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>テーブルからデータを検索して表示しよう</title>
-	<link rel="stylesheet" type="text/css" href="/php/css/skyblue.css">
+	<link rel="stylesheet" type="text/css" href="/css/skyblue.css">
 </head>
 <body>
 <?php

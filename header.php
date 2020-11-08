@@ -10,28 +10,28 @@
 		<tr>
 			<td class="bg-main padding-y-5 text-center">
 				<div class="container padding-y-5">
-					<a href="http://localhost/php/1002/selectIndex.php" class="color-white ">
+					<a href="http://localhost/3step1002/selectIndex.php" class="color-white ">
 						<strong>検索</strong>
 					</a>
 				</div>
 			</td>
 			<td class="bg-main padding-y-5 text-center">
 				<div class="container padding-y-5">
-					<a href="http://localhost/php/1003/insertIndex.php" class="color-white">
+					<a href="http://localhost/3step1003/insertIndex.php" class="color-white">
 						<strong>追加</strong>
 					</a>
 				</div>
 			</td>
 			<td class="bg-main padding-y-5 text-center">
 				<div class="container padding-y-5">
-					<a href="http://localhost/php/1004/updateIndex.php" class="color-white">
+					<a href="http://localhost/3step1004/updateIndex.php" class="color-white">
 						<strong>更新</strong>
 					</a>
 				</div>
 			</td>
 			<td class="bg-main padding-y-5 text-center">
 				<div class="container padding-y-5">
-					<a href="http://localhost/php/1005/deleteIndex.php" class="color-white">
+					<a href="http://localhost/3step1005/deleteIndex.php" class="color-white">
 						<strong>削除</strong>
 					</a>
 				</div>
